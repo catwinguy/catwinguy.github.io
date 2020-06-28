@@ -1,0 +1,65 @@
+header {
+    padding: 0.5%;
+    text-align: center;
+}
+
+header h1 { 
+    font-family: "Copperplate Gothic Light"; 
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+}
+
+nav {
+    display: flex;
+    justify-content: safe center;
+}
+
+nav a {
+    padding: 0.5%;
+    text-align: center;
+    width: 5%;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start safe;
+}
+
+#top {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 3% 3% 3%;
+    margin-top: 0px;
+}
+
+.container-header {
+    /*text-align: center;*/
+    margin-bottom: 0px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.project-item {
+    display: flex;
+    flex: 1 1 300px;
+    flex-direction: column;
+    padding: 0% 1% 0% 0%;
+}
+
+footer {
+    padding: 0.25%;
+    text-align: center;
+}
