@@ -14,14 +14,48 @@ header h1 {
 
 nav {
     display: flex;
-    justify-content: safe center;
+    flex-direction: row;
+}
+
+div.branding {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    flex-grow: 4;
+}
+
+nav h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+}
+
+nav h4 {
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.redirection {
+    display: flex;
+    right: 5vw;
+    padding: 0.5vwh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a {
-    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 5%;
     text-decoration: none;
+    border-radius: 20%;
+    border-style: solid;
+    padding: 1vw;
+    margin: 1vw;
 }
 
 .content {

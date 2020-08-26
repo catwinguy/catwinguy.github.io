@@ -9,15 +9,21 @@ nav {
 
 nav a {
     color: #E8E9EB;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-style: solid;
     border-color: #313638;
+    background-color: #F06543;
 }
 
 nav a:hover {
     background-color: #E0DFD5;
     color: #313638;
+}
+
+nav h1 {
+    color: #E8E9EB;
+}
+
+nav h4 {
+    color: #E8E9EB;
 }
 
 header {
@@ -26,6 +32,10 @@ header {
 
 .content {
     background-color: white;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #313638;
 }
 
 /*footer {
@@ -37,7 +47,4 @@ header {
 footer {
     background-color: #F06543;
     color: #E0DFD5;
-    border-top-style: solid;
-    border-width: 5px;
-    border-color: #313638;
 }
