@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+#background {
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content1 {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    margin: 5% 15%;
+}
+
+.content2 {
+    position: fixed;
+    width: 70%;
+    height: 80%;
+    margin: 5% 15%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    color: black;
+    font-size: 14px;
+    font-family: 'Carme', sans-serif;
+}
+
+#start {
+    margin: auto;
+    width: 300px;
+    height: 75px;
+    background: rgba(50, 50, 50, 0.5);
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    color: white;
+    font-size: 24px;
+    font-family: 'Carme', sans-serif;
+}
+
+#start:hover {
+    color: black;
+    background: rgba(150, 150, 150, 0.75);
+}
+
+.progressBar {
+    width: 100%;
+    background-color: grey;
+    bottom: 0px;
+    border-radius: 25px;
+    position: absolute;
+    border: 8px solid gray;
+}
+
+.loadingBar {
+    width: 1%;
+    height: 20px;
+    border-radius: 25px;
+    background-color: lightpink;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(255, 213, 229, 0.8);
+    border-radius: 10px;
+}
+
+li {
+    float: right;
+    padding: 1%;
+    color: white;
+    font-size: 26px;
+}
+
+li h1 {
+    margin: 5px;
+    font-size: 40px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: lightpink;
+}
+
+.mainContent {
+    margin: 5px;
+    padding: 0px 10px;
+}
+
+.contact-info {
+    bottom: 2px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+a {
+    color: lightpink;
+}
