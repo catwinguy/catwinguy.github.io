@@ -25,7 +25,6 @@ body {
 .content2 {
     position: fixed;
     width: 70%;
-    height: 80%;
     margin: 5% 15%;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
