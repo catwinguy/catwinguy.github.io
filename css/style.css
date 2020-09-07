@@ -112,11 +112,12 @@ li a:hover:not(.active) {
 }
 
 .contact-info {
-    bottom: 5px;
+    /* bottom: 0px; */
     width: 100%;
     position: absolute;
     text-align: center;
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: white;
     font-size: 16px;
 }
@@ -128,5 +129,5 @@ a {
 p {
     color: white;
     font-size: 16px;
-    margin: 0% 3%;
+    margin: 1% 3%;
 }
